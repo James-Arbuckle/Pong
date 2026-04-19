@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.score-section {
+    flex: 1;
+}
+
+.score-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.score-section p {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#gameCanvas {
+    display: block;
+    background-color: #1a1a1a;
+    border: 3px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.instructions {
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.instructions p {
+    margin: 5px 0;
+}
